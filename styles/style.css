@@ -13,7 +13,7 @@ body {
 
 .banner-container {
       width: 100%;
-      height: 80vh;
+      height: 100vh;
       border: 1px solid red;
       display: flex;
       justify-content: center;
@@ -63,8 +63,8 @@ body {
 
 .left-banner button {
       margin-top: 10px;
-      width: 177px;
-      height: 64px;
+      width: 80px;
+      height: 30px;
       border-radius: 8px;
 
       background: rgb(229, 84, 115);
@@ -84,4 +84,68 @@ body {
       border: 1px solid green;
       border-style: none;
 
+}
+
+/* media quaries */
+@media screen and (max-width:576px) {
+
+      .banner-container {
+            width: 100%;
+            height: 100vh;
+            flex-direction: column;
+            justify-content: left;
+            align-items: left;
+            flex-wrap: wrap;
+            border: 1px solid red;
+      }
+
+      .left-banner {
+            width: 140px;
+            height: 300px;
+            border: 1px solid blue;
+            justify-content: left;
+            align-items: left;
+            margin: 0px 0px 0px 0px;
+            margin-top: 20px;
+            /* display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: left; */
+            margin-left: 0px;
+            margin-right: 0px;
+            border-style: none;
+      }
+
+      .left-banner h3 {
+
+            align-items:left;
+
+            margin-bottom: 3px;
+            color: rgb(39, 39, 39);
+            font-family: Lato;
+            font-size: 20px;
+            font-weight: 800;
+            line-height: 20px;
+            letter-spacing: 0%;
+            border-style: none;
+      }
+      .left-banner p {
+            color: rgba(39, 39, 39, 0.6);
+            margin-top: 2px;
+            font-family: Lato;
+            font-size: 15px;
+            justify-content: left;
+            text-align: left;
+            border-style: none;
+            margin-bottom: 0px;
+      }
+      .right-banner img {
+            margin : 0px 100px 0px 100px;
+            margin-top: 90px;
+            width: 170px;
+            height: 170px;
+            border: 1px solid green;
+            border-style: none;
+      
+      }
 }
