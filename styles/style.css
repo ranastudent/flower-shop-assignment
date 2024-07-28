@@ -231,6 +231,14 @@ body {
 .off {
       color: rgb(229, 84, 115);
 }
+.sing{
+      background-color: rgb(229, 84, 115);
+      width: 120px;
+      height: 40px;
+      padding: 4px;
+      border-radius: 20px;
+      text-align: center;
+}
 
 .discount-description {
       color: rgba(39, 39, 39, 0.6);
