@@ -86,4 +86,159 @@ body {
 
 }
 
-/* media quaries */
+/* main section start here */
+.main {
+      background-color: white;
+      margin: 80px 20px;
+}
+
+.feature-flower {
+      width: 80%;
+      margin: 20px auto;
+}
+
+.feature-title {
+      text-align: center;
+      color: rgb(39, 39, 39);
+      font-family: Lato;
+      font-size: 2.5rem;
+      font-weight: 800;
+      line-height: 48px;
+      letter-spacing: 0%;
+}
+
+.feature-description {
+      color: rgba(39, 39, 39, 0.6);
+      font-family: Lato;
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0%;
+      text-align: center;
+      margin-top: 20px;
+}
+
+.flower-img {
+      width: 80%;
+      margin: 20px auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+}
+
+.img-1 {
+      height: 538px;
+}
+
+.img-1 img {
+      /* border: 1px solid red; */
+
+      border-radius: 300px 300px 0px 0px;
+      background: rgb(206, 115, 159);
+      height: 80%;
+}
+
+.img-2 {
+      height: 538px;
+}
+
+.img-2 img {
+      /* border: 1px solid red; */
+      border-radius: 300px 300px 0px 0px;
+      background: rgba(5, 151, 160, 0.15);
+      height: 80%;
+}
+
+.img-3 {
+      height: 538px;
+}
+
+.img-3 img {
+      /* border: 1px solid red; */
+      border-radius: 300px 300px 0px 0px;
+      background: rgba(71, 125, 17, 0.15);
+      height: 80%;
+}
+
+.img-text {
+      color: rgb(39, 39, 39);
+      font-family: Lato;
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 35px;
+      letter-spacing: 0%;
+      text-align: center;
+      text-decoration-line: underline;
+      margin-top: 10px;
+}
+
+.icon {
+      width: 80%;
+      margin: 20px auto;
+      border-radius: 8px;
+      /* background: rgba(39, 39, 39, 0.05); */
+}
+
+.icon-containar {
+      width: 80%;
+      height: 400px;
+      margin: 20px auto;
+      border-radius: 8px;
+      background: rgba(39, 39, 39, 0.05);
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: space-evenly;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+}
+
+
+
+
+
+.icon-description {
+      color: rgba(39, 39, 39, 0.8);
+      font-family: Lato;
+      font-size: 1.5rem font-weight: 600;
+      line-height: 35px;
+      letter-spacing: 0%;
+      /* text-align: center; */
+}
+
+
+.discount-containar {
+      width: 100%;
+      border-radius: 8px;
+      background: rgba(229, 84, 115, 0.05);
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 80px;
+}
+
+.discount-title {
+      font-family: Lato;
+      font-size: 2.5rem;
+      font-weight: 800;
+      line-height: 48px;
+      letter-spacing: 0%;
+      margin-bottom: 10px;
+}
+
+.off {
+      color: rgb(229, 84, 115);
+}
+
+.discount-description {
+      color: rgba(39, 39, 39, 0.6);
+      font-family: Lato;
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0%;
+      text-align: center;
+      margin-bottom: 10px;
+}

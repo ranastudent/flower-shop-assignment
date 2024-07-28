@@ -59,4 +59,32 @@
             border-style: none;
       
       }
+      .flower-img {
+            width: 80%;
+            /* margin: auto auto; */
+            margin-left: 20px;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 20px;
+      }
+      .img-2 img{
+            /* border: 1px solid red; */
+            width: 95%;
+            border-radius: 300px 300px 0px 0px;
+            background: rgba(5, 151, 160, 0.15);
+            height: 80%;
+      }
+      .icon-containar {
+            width: 80%;
+            height: 400px;
+            margin: 20px auto;
+            border-radius: 8px;
+            background: rgba(39, 39, 39, 0.05);
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            justify-content: space-evenly;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+      }
 }
