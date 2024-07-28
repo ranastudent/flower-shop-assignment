@@ -87,4 +87,22 @@
             justify-content: center;
             text-align: center;
       }
+      .insta-description {
+            color: rgba(39, 39, 39, 0.6);
+            font-family: Lato;
+            font-size: 1.1rem;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0%;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+      }
+
+      .img-containar img{
+            margin-right: 0px;
+            margin-bottom: 30px;
+      }
 }

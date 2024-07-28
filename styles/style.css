@@ -242,3 +242,44 @@ body {
       text-align: center;
       margin-bottom: 10px;
 }
+
+.intragam{
+      margin: 50px auto;
+}
+.insta-title {
+      color: rgb(39, 39, 39);
+      font-family: Lato;
+      font-size: 2.5rem;
+      font-weight: 800;
+      line-height: 48px;
+      letter-spacing: 0%;
+      text-align: center;
+}
+
+.insta-description {
+      color: rgba(39, 39, 39, 0.6);
+      font-family: Lato;
+      font-size: 1.1rem;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0%;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+}
+.img-containar{
+      
+      margin: 20px auto;
+      align-items: center;
+      justify-items: center;
+      text-align: center;
+}
+.img-containar img{
+      margin-right: 25px;
+}
+.form-containar{
+      width: 100%;
+      margin: 20px auto;
+      height: 449px;
+      background-image: url("../Flower-Asset/Rectangle9.png");
+}
